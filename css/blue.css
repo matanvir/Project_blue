@@ -1,0 +1,390 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/*header start*/
+header{
+	background-color: #121B2A;
+	padding: 10px; 0;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 75%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	width: 17%;
+	float: left;
+}
+
+.logo img{
+	width: 100%;
+
+}
+.menu {
+	width: 70%;
+	float: right;
+	margin-top: 50px;
+} 
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: inline-block;
+	transition: .3s;
+}
+
+.menu ul li a:hover{
+	color: #007ABD;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/hill.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 50%;
+	margin-top: 200px;
+	margin-bottom: 80px;
+	/*background-color: rgba(11,11,11,.5);*/
+}
+.b_content h1{
+	font-family: sans-serif; 
+	font-weight: 400;
+	font-size: 35px;
+	color: white; 
+	text-transform: capitalize;
+	margin: 0;
+}
+.b_content h2{
+	font-family: sans-serif; 
+	font-weight: 700;
+	font-size: 40px;
+	color: #007ABD; 
+	text-transform: capitalize;
+	margin: 0;
+}
+.b_content p{
+	font-family: sans-serif; 
+	font-weight: 400;
+	font-size: 15px;
+	color: white; 
+	text-transform: capitalize;
+	margin: 0;
+	line-height: 25px; 
+}
+.b_content button{
+	width: 200px;
+	height: 40px;
+	margin-top: 20px;
+	font-family: sans-serif; 
+	font-size: 20px;
+	color: #5A5A5A; 
+	text-transform: uppercase;
+	background-color: white;
+	border:0;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: .3s
+}
+.b_content button:hover{
+	color: #0078BD;
+}
+
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+/*service start*/
+.service{
+	background-color: #121B2C;
+	padding: 20px 0 10px;
+
+}
+.single{
+	width: 29%;
+	border-right: 1px solid white;
+	padding: 20px 15px 30px;
+	float: left;
+	margin-right: 2.3%;
+}
+.single:last-child{
+	margin-right: 0px;
+	border-right: 0px;
+}
+.top{
+	overflow: hidden;
+}
+.t_img{
+	width: 23%;
+	/*border: 1px solid white;*/
+	float: left;
+
+}
+.t_img img{
+	width: 100%;
+}
+.t_text{
+	width: 60%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.t_text h2{
+	font-family: sans-serif; 
+	font-weight: 200;
+	font-size: 25px;
+	color: white;
+	margin: 0;
+	
+}
+.t_text h3{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color: #0078BF;
+	margin: 0;
+	
+}
+.bottom{
+	margin-top: 20px;
+}
+.bottom p{
+	font-family: sans-serif;
+	color: white;
+	margin: 0;
+	line-height: 25px;
+}
+/*service end*/
+/*contact start*/
+.contacts{
+	background-color: #040811;
+	padding: 50px;
+}
+.singlecon{
+	width: 29%;
+	/*border-right: 1px solid white;*/
+	padding: 20px 15px 30px;
+	float: left;
+	margin-right: 2.3%;
+}
+.t_textcon{
+	width: 60%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-top: 14px;
+	margin-left: 10px;
+
+}
+.t_textcon h2{
+	font-family: sans-serif; 
+	font-weight: 200;
+	font-size: 25px;
+	color: white;
+	margin: 25px 0px 0px 24px;
+}
+.t_textcon h2 span{
+	font-weight: 700;
+	color: #0275B8;
+}
+.t_textcon h3{
+	font-family: sans-serif; 
+	font-weight: 200;
+	font-size: 15px;
+	color: white;
+	margin: 1px 0px 18px 23px;
+}
+.table{
+	font-family: sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	margin: 0px 0px 0px 29px;
+}
+.contact_2{
+	width:30%;
+	float: left
+}
+.contact2{
+	
+}
+.contact2 h2{
+	font-family: sans-serif; 
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	margin: 53px 664px 14px 0px;
+}
+.contact2 h2 span{
+	font-weight: 700;
+	color: #0275B8;
+}
+.contact2 p{
+	font-family: sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	margin: -2px 96px 14px 0px;
+	line-height: 23px;
+	
+}
+
+/*#talkbubble{
+	margin: 200px
+	width: 25%;
+    height: 60px;
+    padding: 20px;
+    background: #0C1019;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+#talkbubble:before {
+	content: "";
+    position: absolute;
+    right: 14%;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-left: 2px solid transparent;
+    border-right: 65px solid transparent;
+    border-top: 26px solid #0C1019;
+}*/
+.con_website{
+	/*margin-top: 40px;*/
+}
+.con_website p{
+	font-family: sans-serif; 
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	margin: 0;
+}
+.con_website a{
+	text-decoration: none;
+	font-family: sans-serif;
+    font-size: 14px;
+	color: white;
+}
+.apps{
+	float: left;
+	width: 30%;
+	margin: 0px 2%;
+}
+.phoneimg{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+	/*border: 1px solid white;*/
+}
+.phoneimg img{
+	width: 100%;
+	float: left;
+	padding-top: 10px;
+}
+.edgeapps{
+	width: 50%;
+    float: left;
+    padding: 25px 20px;
+    /*border: 1px solid white;*/
+}
+.edgeapps h2{
+	font-family: sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+.edgeapps h3{
+	font-family: sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #0075B8;
+    margin: 0;
+    line-height: 50px;
+}
+.edgeapps a{}
+.edgeapps a img{}
+/*contact end*/
+/*footer start*/
+footer{
+	position: relative;
+	font-size: 18px;
+
+}
+.footer_background{
+	background-color: #121B2A;
+	padding: 70px;
+}
+
+.footer_back_img img{
+	display: block;
+	width: 20%;
+	float: right;
+	margin-right: 10px;
+	margin-right: 350px;
+    margin-top: -37px;
+}
+.footer_content{
+	position: absolute;
+	top: 15%;
+	width: 70%;
+	margin-left: 16%;
+}
+.footer_menu{}
+.footer_menu ul{
+	list-style: none;
+	padding: 0px 0px 1.5% 0px;
+}
+.footer_menu ul li{
+	float: left;
+	padding: 0 0.8%;
+	color: white;
+}
+.footer_menu ul li:first-child{
+	padding-left: 0;
+}
+.footer_menu ul li:last-child{
+	padding-right: 0;
+}
+.footer_menu ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+.footer_menu ul li a:hover{
+	color: #0075ba;
+}
+.footer_copyright{
+	color: white;
+}
+/*footer end*/
+
+
+
+
+
